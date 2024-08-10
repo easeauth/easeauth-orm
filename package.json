@@ -1,0 +1,44 @@
+{
+    "name": "@easeauth/orm",
+    "private": false,
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "This repository contains an npm package for performing CRUD operations on multiple databases, defining models and schemas.",
+    "author": {
+        "name": "Sikandar",
+        "email": "sikandar.moyal.dev@gmail.com"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/types/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "devDependencies": {
+        "@types/node": "^22.1.0",
+        "typescript": "^5.5.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/easeauth/easeauth-orm.git"
+    },
+    "keywords": [
+        "typescript",
+        "ORM",
+        "database",
+        "CRUD",
+        "models",
+        "schemas"
+    ],
+    "bugs": {
+        "url": "https://github.com/easeauth/easeauth-orm/issues"
+    },
+    "homepage": "https://github.com/easeauth/easeauth-orm#readme",
+    "files": [
+        "dist/**/*"
+    ],
+    "dependencies": {
+        "@types/mongoose": "^5.11.97",
+        "mongoose": "^8.5.2"
+    }
+}
